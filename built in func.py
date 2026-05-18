@@ -29,7 +29,7 @@ print(b)'''
 '''while True:
     a=float(input("value"))
     b=float(input("value"))
-    print(a+b) '''
+    print(a+b)''' 
 '''while True:
     a=eval(input("a value"))#it evalutes both values like float int str 
     b=eval(input("b value"))
@@ -52,10 +52,10 @@ print(c)'''
 for i in range(len(names)):
     #print(i)
     #print(i,names[i])
-b=list(enumerate(names))
-print(b)
-b=list(enumerate(names,100))
-print(b)'''
+    b=list(enumerate(names))
+    print(b)
+    b=list(enumerate(names,100))
+    print(b)'''
 
 #ASCII
 #chr(),ord()
@@ -63,8 +63,8 @@ print(b)'''
 print(ord("a"))
 print(ord("b"))'''
 
-'''for i in range(65,91):
-    print(chr(i),end=" ")'''
+for i in range(65,91):
+    print(chr(i),end=" ")
 
 s=input("")
 for i in s:
